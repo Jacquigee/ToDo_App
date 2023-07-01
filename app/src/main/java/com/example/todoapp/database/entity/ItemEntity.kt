@@ -1,4 +1,4 @@
-package com.example.todoapp.model
+package com.example.todoapp.database.entity
 
 import androidx.room.Entity
 

@@ -1,10 +1,10 @@
-package com.example.todoapp.dao
+package com.example.todoapp.database.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.todoapp.model.ItemEntity
+import com.example.todoapp.database.entity.ItemEntity
 
 /**
  * PROJECT NAME: ToDo App
