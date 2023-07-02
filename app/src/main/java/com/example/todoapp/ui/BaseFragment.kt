@@ -1,6 +1,8 @@
 package com.example.todoapp.ui
 
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import com.example.todoapp.arch.ToBuyViewModel
 import com.example.todoapp.database.AppDatabase
 
 /**
@@ -17,4 +19,6 @@ abstract class BaseFragment: Fragment() {
 
     protected val appDatabase: AppDatabase
         get() = AppDatabase.getDatabase(requireActivity())
+
+    protected val sharedViewModel: ToBuyViewModel by activityViewModels()
 }
